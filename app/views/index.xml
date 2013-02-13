@@ -1,5 +1,7 @@
 <Alloy>
 	<Window id="win" class="container">
 		<Label id="label" onClick="doClick" onSwipe="doSwipe">Hello, World this is Alan</Label>
+		<Button id="cameraButton" onClick="openCamera">Open Camers</Button>
+		<ImageView id="galleryImage"/>
 	</Window>
 </Alloy>

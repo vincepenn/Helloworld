@@ -17,4 +17,14 @@
 	backgroundColor:"blue",
 	height:100,
 	width:100,
+},
+"#cameraButton":{
+    bottom:50,
+    width:100,
+    height:40
+},
+"#galleryImage":{
+    bottom:100,
+    height:200,
+    wifht:300
 }

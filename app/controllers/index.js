@@ -1,3 +1,4 @@
+$.win.open();
 function doClick(e) {  
     if($.win.children.length==1){
     	$.label.text="swipe to remove";	
@@ -17,4 +18,12 @@ function doSwipe(e) {
     	$.win.remove($.win.children[1]);
     }
 }	
-$.win.open();
+
+function openCamera(){
+    
+    Ti.Media.openPhotoGallery({
+        success:function(e){
+            $.galleryImage.image = e.media;
+        }
+    })
+}
