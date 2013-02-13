@@ -1,5 +1,5 @@
 <Alloy>
 	<Window id="win" class="container">
-		<Label id="label" onClick="doClick" onSwipe="doSwipe">Hello, World</Label>
+		<Label id="label" onClick="doClick" onSwipe="doSwipe">Hello, World this is Alan</Label>
 	</Window>
 </Alloy>
